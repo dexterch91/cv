@@ -1,0 +1,35 @@
+body {
+  background-color: oldlace;
+}
+
+div {
+  background-color: green;
+}
+
+.top-container {
+  height: 200px;
+  width: 200px;
+  background-color: powderblue;
+  border: solid 10px;
+  padding: 20px;
+  position: static;
+  top: 0%;
+  left: 0%;
+}
+
+.middle-container {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  border: solid 20px;
+  padding: 20px;
+  margin-left: 260px;
+}
+
+.bottom-container {
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+  border: solid 10px;
+  margin-left: 540px;
+}

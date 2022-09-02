@@ -1,0 +1,152 @@
+body {
+  background-color: oldlace;
+  margin: 0px;
+  text-align: center; /*parent element with text-align will center everything except those wihtout width */
+  font-family: "Montserrat", sans-serif; /*default it will go to sans-serif*/
+}
+
+h1 {
+  margin-top: 0px;
+  width: 50%;
+  margin: 0 auto 0 auto; /*to center with auto margin*/
+  font-family: 'Silkscreen', cursive;
+  line-height: 2;
+  font-size: 2rem;
+  color: #11999E;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif; /*default it will go to sans-serif*/
+  font-size: 1.25rem;
+  font-weight: normal;
+  color: #11999E;
+}
+
+h3 {
+  font-family: 'Silkscreen', cursive;
+  color: #11999E;
+  font-size: 1.25rem;
+  
+}
+
+hr{
+  border: 0px;
+  border-top: 5px dotted #11999E;
+  width: 4%;
+  margin: 20px auto 20px auto;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+div {
+  background-color: oldlace;
+}
+
+
+.top-container {
+  background-color: powderblue;
+  position: relative; /*to let the children have abs wrt to the parent*/
+  padding-top: 100px;
+}
+
+.middle-container {
+  /*height: 200px;
+  width: 200px;
+  background-color: blue;
+  display: inline-block;
+  position: relative;
+  top: 100px;
+  left: 200px;*/
+}
+
+.bottom-container {
+  /*height: 200px;
+  width: 200px;
+  background-color: red;
+  display: inline-block;
+  position: relative;
+  top: 100px;
+  right: 200px;*/
+  background-color: powderblue;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.dexter{
+  width: 15%;
+  padding-top: 20px;
+  
+}
+
+.skill-icons-Data{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-icons-EPD{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-icons-Business{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.footer-link{
+  color: #11999E;
+  text-decoration: none;
+  margin: auto 50px auto 50px;  
+  font-weight:bold;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 75px auto 75px auto;
+  text-align: left; /* text overwrite center align */
+  line-height: 2; /*no unit just a scale*/
+}
+
+.contact-me{
+  border-radius: 8px;
+}
+
+.bottom-description{
+  margin: 25px auto 15px auto;
+  font-size: 0.8rem;
+  color: oldlace;
+}
+
+.btn{
+  background: powderblue;
+  background-image: -webkit-linear-gradient(top, powderblue, #11999E);
+  background-image: -moz-linear-gradient(top, powderblue, #11999E);
+  background-image: -ms-linear-gradient(top, powderblue, #11999E);
+  background-image: -o-linear-gradient(top, powderblue, #11999E);
+  background-image: linear-gradient(to bottom, powderblue, #11999E);
+  border-radius: 14px;
+  color: #ffffff;
+  font-size: 1rem;
+  margin: 10px auto 10px auto;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+}
